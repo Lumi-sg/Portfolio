@@ -1,6 +1,6 @@
 import EtchASketchImage from "../assets/ProjectAssets//etchasketch.png";
-import { Project } from "../classes/ProjectClass";
-import { techIcons } from "../techImages";
+import { Project } from "../../classes/ProjectClass"
+import { techIcons } from "../techImages"
 
 const techUsed = [techIcons.htmlTech, techIcons.cssTech, techIcons.javascriptTech];
 

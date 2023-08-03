@@ -1,6 +1,6 @@
 import KnightTravailsImage from "../assets/ProjectAssets/KnightTravails.png";
-import { Project } from "../classes/ProjectClass";
-import { techIcons } from "../techImages";
+import { Project } from "../../classes/ProjectClass"
+import { techIcons } from "../techImages"
 
 const techUsed = [
 	techIcons.htmlTech,

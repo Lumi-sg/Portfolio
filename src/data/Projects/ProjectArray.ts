@@ -1,4 +1,4 @@
-import { Project } from "../classes/ProjectClass";
+import { Project } from "../../classes/ProjectClass"
 import { BattleShips } from "./Battleships";
 import { Calculator } from "./Calculator";
 import { CurrencySeller } from "./CurrencySeller";

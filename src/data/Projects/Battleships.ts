@@ -1,5 +1,5 @@
+import { Project } from "../../classes/ProjectClass";
 import BattleShipsImage from "../assets/ProjectAssets/battleships.png";
-import { Project } from "../classes/ProjectClass";
 import { techIcons } from "../techImages";
 
 const techUsed = [

@@ -1,6 +1,6 @@
+import { Project } from "../../classes/ProjectClass";
 import CalculatorImage from "../assets/ProjectAssets/calculator.png";
-import { Project } from "../classes/ProjectClass";
-import { techIcons } from "../techImages";
+import { techIcons } from "../techImages"
 
 const techUsed = [
 	techIcons.htmlTech,
