@@ -1,4 +1,3 @@
-import { tech } from "../../../classes/ProjectClass";
 import csharp from "../techIcons/csharp.png";
 import css from "../techIcons/css-3.png";
 import firebase from "../techIcons/firebase.png";
@@ -9,6 +8,7 @@ import react from "../techIcons/physics.png";
 import typescript from "../techIcons/typescript.png";
 import vite from "../techIcons/vite.png";
 import webpack from "../techIcons/webpack.png";
+import { tech } from "./classes/ProjectClass";
 
 const htmlTech: tech = {
 	name: "HTML",

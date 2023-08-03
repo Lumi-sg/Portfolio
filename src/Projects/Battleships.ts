@@ -1,6 +1,6 @@
 import BattleShipsImage from "../assets/ProjectAssets/battleships.png";
-import { techIcons } from "../assets/ProjectAssets/techIcons/techImages";
 import { Project } from "../classes/ProjectClass";
+import { techIcons } from "../techImages";
 
 const techUsed = [
 	techIcons.htmlTech,

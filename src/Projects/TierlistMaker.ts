@@ -1,6 +1,6 @@
 import TierlistMakerImage from "../assets/ProjectAssets/Tierlistmaker.png";
-import { techIcons } from "../assets/ProjectAssets/techIcons/techImages";
 import { Project } from "../classes/ProjectClass";
+import { techIcons } from "../techImages";
 
 const techUsed = [
 	techIcons.htmlTech,
