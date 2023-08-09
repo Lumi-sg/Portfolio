@@ -1,7 +1,7 @@
 .HeaderContainer {
 	min-height: 25rem;
 	width: 50%;
-	border-bottom: 1px solid white;
+
 	display: flex;
 	align-items: center;
 }
@@ -34,15 +34,16 @@
 .paragraphH1 {
 	font-size: 2rem;
 	margin-bottom: 2rem;
+	font-weight: bold;
 }
 .iconContainer {
 	margin-top: 1rem;
 	align-self: flex-end;
 	margin-right: -1rem;
 }
-.profileName{
+.profileName {
 	display: flex;
 	justify-content: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-top: 0.5rem;
 }

@@ -1,5 +1,5 @@
 import { Project } from "../../classes/ProjectClass";
-import currenySellerImage from "../assets/ProjectAssets/currencyseller.png";
+import currenySellerImage from "../../assets/ProjectAssets/currencyseller.png"
 import { techIcons } from "../techImages";
 
 const techUsed = [techIcons.csharpTech];

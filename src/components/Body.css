@@ -1,4 +1,59 @@
 .BodyContainer {
 	min-height: 45rem;
+	width: 50%;
 	border-bottom: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.workHeader {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	margin: 1rem;
+	margin-left: 4rem;
+	font-weight: bold;
+}
+
+.portfolioContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.projectCard {
+	max-width: 31.75%;
+	border: solid 2px #3a3a3a;
+}
+
+.projectImage {
+	width: 100%;
+	height: 18rem;
+	border-bottom: 1px solid #3a3a3a;
+}
+
+.techIcon {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 0.25rem;
+	margin-left: 0.75rem;
+}
+
+.projectInfoContainer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #3a3a3a88;
+	font-size: 1.5rem;
+	min-height: 3rem;
+}
+
+.projectDescription {
+	display: flex;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	min-height: 4.5rem;
 }

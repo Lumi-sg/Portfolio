@@ -1,17 +1,13 @@
-
+import csharp from "../assets/ProjectAssets/techIcons/csharp.png";
+import css from "../assets/ProjectAssets/techIcons/css-3.png";
+import firebase from "../assets/ProjectAssets/techIcons/firebase.png";
+import html from "../assets/ProjectAssets/techIcons/html.png";
+import jest from "../assets/ProjectAssets/techIcons/jest.png";
+import javascript from "../assets/ProjectAssets/techIcons/js.png";
+import react from "../assets/ProjectAssets/techIcons/physics.png";
+import typescript from "../assets/ProjectAssets/techIcons/typescript.png";
+import vite from "../assets/ProjectAssets/techIcons/vite.png";
 import { tech } from "../classes/ProjectClass";
-import csharp from "../techIcons/csharp.png";
-import css from "../techIcons/css-3.png";
-import firebase from "../techIcons/firebase.png";
-import html from "../techIcons/html.png";
-import jest from "../techIcons/jest.png";
-import javascript from "../techIcons/js.png";
-import react from "../techIcons/physics.png";
-import typescript from "../techIcons/typescript.png";
-import vite from "../techIcons/vite.png";
-import webpack from "../techIcons/webpack.png";
-
-
 
 const htmlTech: tech = {
 	name: "HTML",
@@ -38,11 +34,7 @@ const viteTech: tech = {
 	imageURL: vite,
 	imageALT: "Vite",
 };
-const webpackTech: tech = {
-	name: "Webpack",
-	imageURL: webpack,
-	imageALT: "Webpack",
-};
+
 const typescriptTech: tech = {
 	name: "TypeScript",
 	imageURL: typescript,
@@ -71,7 +63,7 @@ const techIcons = {
 	javascriptTech,
 	reactTech,
 	viteTech,
-	webpackTech,
+
 	typescriptTech,
 	firebaseTech,
 	jestTech,

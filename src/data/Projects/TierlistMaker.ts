@@ -1,5 +1,5 @@
 import { Project } from "../../classes/ProjectClass";
-import TierlistMakerImage from "../assets/ProjectAssets/Tierlistmaker.png";
+import TierlistMakerImage from "../../assets/ProjectAssets/Tierlistmaker.png"
 import { techIcons } from "../techImages";
 
 const techUsed = [

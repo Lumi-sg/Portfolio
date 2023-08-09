@@ -1,13 +1,8 @@
+import CalculatorImage from "../../assets/ProjectAssets/calculator.png";
 import { Project } from "../../classes/ProjectClass";
-import CalculatorImage from "../assets/ProjectAssets/calculator.png";
-import { techIcons } from "../techImages"
+import { techIcons } from "../techImages";
 
-const techUsed = [
-	techIcons.htmlTech,
-	techIcons.cssTech,
-	techIcons.javascriptTech,
-	techIcons.webpackTech,
-];
+const techUsed = [techIcons.htmlTech, techIcons.cssTech, techIcons.javascriptTech];
 
 export const Calculator = new Project(
 	"Calculator",

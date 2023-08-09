@@ -1,4 +1,4 @@
-import EtchASketchImage from "../assets/ProjectAssets//etchasketch.png";
+import EtchASketchImage from "../../assets/ProjectAssets/etchasketch.png"
 import { Project } from "../../classes/ProjectClass"
 import { techIcons } from "../techImages"
 

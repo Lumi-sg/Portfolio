@@ -1,5 +1,5 @@
+import BattleShipsImage from "../../assets/ProjectAssets/battleships.png";
 import { Project } from "../../classes/ProjectClass";
-import BattleShipsImage from "../assets/ProjectAssets/battleships.png";
 import { techIcons } from "../techImages";
 
 const techUsed = [
@@ -7,7 +7,6 @@ const techUsed = [
 	techIcons.cssTech,
 	techIcons.javascriptTech,
 	techIcons.jestTech,
-	techIcons.webpackTech,
 ];
 
 export const BattleShips = new Project(

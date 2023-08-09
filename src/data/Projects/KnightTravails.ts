@@ -1,13 +1,8 @@
-import KnightTravailsImage from "../assets/ProjectAssets/KnightTravails.png";
-import { Project } from "../../classes/ProjectClass"
-import { techIcons } from "../techImages"
+import KnightTravailsImage from "../../assets/ProjectAssets/KnightTravails.png";
+import { Project } from "../../classes/ProjectClass";
+import { techIcons } from "../techImages";
 
-const techUsed = [
-	techIcons.htmlTech,
-	techIcons.cssTech,
-	techIcons.javascriptTech,
-	techIcons.webpackTech,
-];
+const techUsed = [techIcons.htmlTech, techIcons.cssTech, techIcons.javascriptTech];
 
 export const KnightTravails = new Project(
 	"Knight Travails",
