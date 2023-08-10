@@ -30,15 +30,17 @@ const Body = () => {
 							>
 								<h2 className="projectName">{project.name}</h2>
 							</a>
-							{project.techUsed.map((tech, index) => (
-								<img
-									key={index}
-									className="techIcon"
-									src={tech.imageURL}
-									alt={tech.imageALT}
-									title={tech.imageALT}
-								/>
-							))}
+							<div className="techContainer">
+								{project.techUsed.map((tech, index) => (
+									<img
+										key={index}
+										className="techIcon"
+										src={tech.imageURL}
+										alt={tech.imageALT}
+										title={tech.imageALT}
+									/>
+								))}
+							</div>
 						</div>
 						<p className="projectDescription">{project.description}</p>
 					</div>
