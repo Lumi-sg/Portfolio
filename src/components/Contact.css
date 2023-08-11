@@ -1,4 +1,6 @@
 .ContactContainer {
 	min-height: 25rem;
+	width: 65%;
 	border-bottom: 1px solid white;
+	margin-top: 2rem;
 }

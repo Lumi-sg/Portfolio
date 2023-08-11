@@ -25,6 +25,12 @@
 	max-width: 31.75%;
 	min-width: 31.75%;
 	border: solid 2px #3a3a3a;
+	transition: 200ms ease-in-out;
+}
+
+.projectCard:hover {
+	transform: scale(1.025);
+	border: 1px solid white;
 }
 
 .projectImage {
