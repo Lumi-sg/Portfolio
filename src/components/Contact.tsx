@@ -14,16 +14,16 @@ const Contact = () => {
 						Please get in touch if you think our work could be mutually been
 						beneficial!
 					</p>
-					<p>1234 Random Road</p>
+					<p className="address">1234 Random Road</p>
 					<p>Random Town, California 12345</p>
-					<p>
+					<p className="phone">
 						<i className="fa fa-phone"></i> 555-555-5555
 					</p>
-					<p>
+					<p className="email">
 						<i className="fa fa-envelope"></i> lumi.is.not.real@gmail.com
 					</p>
 				</div>
-				<div className="iconContainer">
+				<div className="iconContainerContact">
 					<a
 						href="https://github.com/Lumi-sg"
 						target="_blank"
@@ -46,9 +46,9 @@ const Contact = () => {
 					></img>
 				</div>
 			</div>
-			<div className="imageContainer">
+			<div className="imageContainerContact">
 				<img
-					className="profileImage"
+					className="profileImageContact"
 					src={profileImage}
 					alt="profile"
 				></img>

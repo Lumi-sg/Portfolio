@@ -1,6 +1,48 @@
 .ContactContainer {
 	min-height: 25rem;
 	width: 65%;
-	border-bottom: 1px solid white;
 	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	margin-bottom: 2rem;
+}
+
+.textContainer > h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.textContainer > p {
+	margin-top: 1.5rem;
+}
+
+.address {
+	margin-bottom: -1.25rem;
+}
+.fa {
+	margin-right: 0.5rem;
+}
+.textContainer {
+	width: 20rem;
+}
+
+.iconContainerContact {
+	margin-top: 2rem;
+	margin-left: -1rem;
+}
+.phone {
+	margin-bottom: -1.25rem;
+}
+.phone:hover,
+.email:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.profileImageContact {
+	border-radius: 0.75rem;
 }
